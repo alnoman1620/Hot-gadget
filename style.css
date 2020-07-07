@@ -1,0 +1,90 @@
+.bg-wht {
+  background-color: white;
+}
+.container {
+  margin-bottom: 50px;
+}
+.carousel-indicators .active {
+  background-image: linear-gradient(90deg, tomato, yellow) !important;
+  width: 40px;
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 8px;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+}
+.orange-bg {
+  background-image: url("images/header-bg.png");
+}
+.carousel-inner {
+  margin-left: 25px;
+}
+.buy-now-button {
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-weight: 700;
+}
+.buy-now-button:hover {
+  color: black;
+  background-image: linear-gradient(90deg, tomato, orange);
+  font-weight: 700;
+}
+.card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+  align-items: center;
+}
+.card-footer {
+  background-color: white;
+  border-top: none;
+}
+.card-img-top {
+  padding-top: 50px;
+}
+.card h5 {
+  text-align: center;
+}
+.see-all {
+  color: orangered;
+  font-weight: 400;
+}
+.categories img {
+  width: 100%;
+}
+.categories {
+  text-align: center;
+  margin-top: 150px;
+}
+.catabox {
+  border-radius: 18px;
+  box-shadow: 3px 3px 8px lightgray;
+  padding: 50px 50px 20px 50px;
+}
+.catabox-top {
+  margin-bottom: 40px;
+}
+
+.cat-underline {
+  margin: 0 auto;
+  background-image: linear-gradient(30deg, tomato, orange);
+  border-radius: 100px;
+  width: 70px;
+  height: 7px;
+}
+#Contact {
+  height: 600px;
+}
+.s-btn {
+  margin-top: 20px;
+}
+@media (max-width: 576px) {
+  .catabox {
+    margin-bottom: 20px;
+  }
+}
