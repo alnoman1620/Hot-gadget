@@ -83,8 +83,3 @@
 .s-btn {
   margin-top: 20px;
 }
-@media (max-width: 576px) {
-  .catabox {
-    margin-bottom: 20px;
-  }
-}
