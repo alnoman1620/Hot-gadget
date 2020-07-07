@@ -61,21 +61,36 @@
   text-align: center;
   margin-top: 150px;
 }
-.catabox {
-  border-radius: 18px;
-  box-shadow: 3px 3px 8px lightgray;
+.cata {
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px lightgray;
   padding: 50px 50px 20px 50px;
 }
-.catabox-top {
-  margin-bottom: 40px;
+.cata-top {
+  margin-bottom: 50px;
 }
 
-.cat-underline {
+.cata-line {
   margin: 0 auto;
-  background-image: linear-gradient(30deg, tomato, orange);
+  width: 80px;
+  height: 6px;
+  background-image: linear-gradient(90deg, tomato, orange);
   border-radius: 100px;
-  width: 70px;
-  height: 7px;
+}
+
+@media (max-width: 576px) {
+  .carousel {
+    margin-top: 0;
+  }
+  nav li {
+    text-align: center;
+  }
+  .col-md-3 {
+    margin-bottom: 50px;
+  }
+  .cata {
+    margin: 0 auto;
+  }
 }
 #Contact {
   height: 600px;
